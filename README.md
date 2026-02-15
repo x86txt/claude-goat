@@ -1,4 +1,4 @@
-# ClaudeGoat 🐐
+# claude-goat 🐐
 
 A curated marketplace + foldered library of “GOAT” agent configurations (Markdown rule/agent prompts) for agentic coding tools.
 
@@ -11,28 +11,28 @@ A curated marketplace + foldered library of “GOAT” agent configurations (Mar
 ### Claude Code (via marketplace)
 1. Add this marketplace (GitHub-hosted):
    - In Claude Code:  
-     `/plugin marketplace add <YOUR_GITHUB_ORG_OR_USER>/ClaudeGoat`
+     `/plugin marketplace add x86txt/claude-goat`
 2. Browse + install a GOAT:
    - `/plugin browse`
-   - `/plugin install goat-go-programmer@ClaudeGoat` (example)
+   - `/plugin install goat-go-programmer@claude-goat` (example)
 
 Validate locally (recommended):  
 `claude plugin validate .`
 
 ### Claude Code (manual / local)
 - Add as a local marketplace:
-  - `/plugin marketplace add /path/to/ClaudeGoat`
+  - `/plugin marketplace add /path/to/claude-goat`
 - Or load a single plugin dir directly (for dev/testing):
   - `claude --plugin-dir ./plugins/goat-go-programmer`
 
 ### Cursor (manual)
 Cursor “rules” live under `.cursor/rules/` (often with `.mdc` extension).
-- Copy the GOAT you want into: `.cursor/rules/claudegoat/`
+- Copy the GOAT you want into: `.cursor/rules/claude-goat/`
 - If Cursor expects `.mdc`, rename accordingly (content stays Markdown).
 
 ### Antigravity (manual)
 Antigravity workspace rules commonly live under: `.agent/rules/` in your repo/workspace.
-- Copy the GOAT you want into `.agent/rules/claudegoat/` and reference it in your workflow as needed.
+- Copy the GOAT you want into `.agent/rules/claude-goat/` and reference it in your workflow as needed.
 
 ### Gemini CLI (manual)
 Gemini CLI reads user settings from `~/.gemini/settings.json` (and can be extended via MCP servers).
