@@ -1,0 +1,8 @@
+{
+  "name": "goat-go-programmer",
+  "description": "GOAT Go programmer agent (simple, fast, correct Go)",
+  "version": "0.1.0",
+  "author": {
+    "name": "ClaudeGoat"
+  }
+}

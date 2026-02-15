@@ -1,0 +1,33 @@
+{
+  "name": "ClaudeGoat",
+  "owner": {
+    "name": "ClaudeGoat"
+  },
+  "plugins": [
+    {
+      "name": "goat-go-programmer",
+      "source": "./plugins/goat-go-programmer",
+      "description": "GOAT Go programmer agent (simple, fast, correct Go)"
+    },
+    {
+      "name": "goat-typescript",
+      "source": "./plugins/goat-typescript",
+      "description": "GOAT TypeScript engineer agent (type-safe, tested TS)"
+    },
+    {
+      "name": "goat-bash",
+      "source": "./plugins/goat-bash",
+      "description": "GOAT Bash scripting agent (safe, operable shell)"
+    },
+    {
+      "name": "goat-sre",
+      "source": "./plugins/goat-sre",
+      "description": "GOAT SRE agent (SLOs, observability, reliability)"
+    },
+    {
+      "name": "goat-security-reviewer",
+      "source": "./plugins/goat-security-reviewer",
+      "description": "GOAT security reviewer agent (practical AppSec review)"
+    }
+  ]
+}

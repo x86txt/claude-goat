@@ -1,0 +1,8 @@
+{
+  "name": "goat-sre",
+  "description": "GOAT SRE agent (SLOs, observability, reliability)",
+  "version": "0.1.0",
+  "author": {
+    "name": "ClaudeGoat"
+  }
+}

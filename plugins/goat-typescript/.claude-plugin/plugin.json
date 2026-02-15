@@ -1,0 +1,8 @@
+{
+  "name": "goat-typescript",
+  "description": "GOAT TypeScript engineer agent (type-safe, tested TS)",
+  "version": "0.1.0",
+  "author": {
+    "name": "ClaudeGoat"
+  }
+}

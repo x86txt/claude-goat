@@ -1,0 +1,8 @@
+{
+  "name": "goat-security-reviewer",
+  "description": "GOAT security reviewer agent (practical AppSec review)",
+  "version": "0.1.0",
+  "author": {
+    "name": "ClaudeGoat"
+  }
+}

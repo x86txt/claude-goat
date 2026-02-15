@@ -1,0 +1,8 @@
+{
+  "name": "goat-bash",
+  "description": "GOAT Bash scripting agent (safe, operable shell)",
+  "version": "0.1.0",
+  "author": {
+    "name": "ClaudeGoat"
+  }
+}
