@@ -1,6 +1,6 @@
-# Team Leader Goat (Manual Install)
+# Goat Team Leader (Manual Install)
 
-This folder contains the "Team Leader Goat" agent configuration for manual installation.
+This folder contains the "Goat Team Leader" agent configuration for manual installation.
 
 ## Files
 

@@ -1,8 +1,8 @@
-# Team Leader Goat Plugin
+# Goat Team Leader Plugin
 
-This plugin provides the "Team Leader Goat" agent for Claude Code.
+This plugin provides the "Goat Team Leader" agent for Claude Code.
 
-## Agent: Team Leader Goat
+## Agent: Goat Team Leader
 
 - **Role**: Technical Lead / Project Manager
 - **Model**: Claude 3.5 Opus (latest available)
