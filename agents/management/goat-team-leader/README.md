@@ -4,7 +4,7 @@ This folder contains the "Team Leader Goat" agent configuration for manual insta
 
 ## Files
 
-- `team-leader-goat.md`: The agent prompt/configuration.
+- `goat-team-leader.md`: The agent prompt/configuration.
 
 ## Installation
 
@@ -13,12 +13,12 @@ This folder contains the "Team Leader Goat" agent configuration for manual insta
 You can reference this file directly in your `claude` command:
 
 ```bash
-claude --agent-file ./agents/management/team-leader-goat/team-leader-goat.md "Your complex request here"
+claude --agent-file ./agents/management/goat-team-leader/goat-team-leader.md "Your complex request here"
 ```
 
 ### Copy/Paste (Other Tools)
 
-1.  Open `team-leader-goat.md`.
+1.  Open `goat-team-leader.md`.
 2.  Copy the entire content.
 3.  Paste it into your tool's custom instruction or "persona" setting.
     - **Cursor**: Save as `.cursor/rules/team-leader.mdc`.

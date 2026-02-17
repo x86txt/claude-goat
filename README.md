@@ -9,6 +9,41 @@ claude-goat is a curated library of highly optimized agent configurations ('GOAT
 - **A Claude Code plugin marketplace** that lets you install individual GOAT agents (one per plugin) from the Claude Code UI/terminal.
 - **A human-friendly folder structure** so you can also copy/paste agents into other tools (Cursor, Antigravity, Gemini CLI).
 
+## Marketplace Structure
+
+```text
+claude-goat/
+├── .claude-plugin/
+│   └── marketplace.json          # Marketplace registry
+├── plugins/                       # Installable plugins
+│   ├── goat-bash/
+│   ├── goat-git/
+│   ├── goat-github/
+│   ├── goat-go-programmer/
+│   ├── goat-python/
+│   ├── goat-security-reviewer/
+│   ├── goat-sre/
+│   ├── goat-team-leader/
+│   └── goat-typescript/
+└── agents/                        # Manual install configs
+    └── management/
+        └── goat-team-leader/
+```
+
+## Available GOAT Agents
+
+| Agent                      | Purpose                        | Key Capabilities                                                                                           | When to Use                                                           |
+| -------------------------- | ------------------------------ | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| **goat-bash**              | Safe, operable shell scripting | POSIX-compliant scripts, safe defaults (`set -euo pipefail`), idempotent operations, proper error handling | Automating workflows, deployment scripts, system administration tasks |
+| **goat-git**               | Safe history & clean diffs     | Clean commit history, safe rebasing, conflict resolution, reflog recovery                                  | Managing version control, code reviews, maintaining linear history    |
+| **goat-github**            | PR hygiene & CI/CD             | PR templates, branch protections, GitHub Actions, Dependabot, CODEOWNERS                                   | Setting up repos, improving collaboration, supply-chain security      |
+| **goat-go-programmer**     | Simple, fast, correct Go       | Idiomatic Go, stdlib-first, table-driven tests, minimal dependencies                                       | Building Go services, CLIs, performance-critical applications         |
+| **goat-python**            | Type-safe, tested Python       | uv-first tooling, type hints, pytest, modern Python practices                                              | Data science, web services, automation with Python                    |
+| **goat-security-reviewer** | Practical AppSec review        | OWASP Top 10, secure defaults, threat modeling, code review                                                | Security audits, vulnerability assessment, secure coding practices    |
+| **goat-sre**               | SLOs & observability           | Service reliability, monitoring, incident response, SLI/SLO design                                         | Production operations, reliability engineering, on-call workflows     |
+| **goat-team-leader**       | Agent orchestration            | Multi-agent coordination, parallel task execution, delegation mode                                         | Complex multi-domain projects requiring specialized expertise         |
+| **goat-typescript**        | Type-safe, tested TS           | Bun-first (pnpm fallback), strict TypeScript, comprehensive testing                                        | Modern web apps, Node.js services, type-safe frontends                |
+
 ## Install
 
 ### Claude Code (via marketplace)
